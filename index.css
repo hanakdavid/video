@@ -1,0 +1,172 @@
+
+body{
+    background-color: #1c1c1c;
+    color: inherit;
+}
+.container {
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    gap: 24px;
+    align-content: center;
+    grid-auto-flow: column;
+  }
+  .card1{
+    margin-top: 100px;
+    width: 200px;
+    height: 250px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+    background-image: url('kepek/squidgames2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    transform: scale(1.0);
+    flex-direction: row;
+    overflow: hidden;
+    cursor: pointer;
+}
+.cim{
+    margin-top: 400px;
+    position: absolute;
+    margin-left: -140px;
+    text-align: left;
+    color: azure;
+    font-size: 1.5rem;
+}
+.cim:hover{
+    color: azure;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.kep{
+    overflow: hidden;  
+    background-image: url('kepek/squidgames2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.card{
+    margin-top: 100px;
+    width: 200px;
+    height: 250px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+.container h1 ,.card h1 ,.card1 h1{
+    font-size: 1.5rem;
+    text-justify: auto;
+}
+  .card:hover ,.card1:hover{
+    transform: scale(1.03);
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    backdrop-filter: blur(2px);
+  }
+ nav ul{
+    list-style: none;
+    list-style-type: none;
+  }
+  nav{
+    background-color: gray;
+    height: 50px;
+    margin-top: -20px; /* -20px*/
+    margin-bottom: 20px;
+  }
+  nav a{
+    float: left;
+    text-decoration: none;
+    margin-right: 18px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    margin-top: 10px;
+
+  }
+  nav a:hover{
+    background-color: #3de29d;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 2px #3de29d, 0 0 10px #3de29d;
+    background-size: 600% 600%;
+    animation: gradient 6s ease infinite;
+    transform: scale(1.00) translateY(-2px);  /* 5px */
+  }
+  .lezar{
+    clear: both;
+  }
+  .content{
+    width: 100%;
+    height: 100vh;
+    align-content: center;
+}
+.container ,.content{
+ margin-top: 10px;
+}
+.button{
+    margin-top: 30px;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 4px;
+    align-items: center;
+    justify-items: center;
+    font-weight: bold;
+}
+.elozo{
+    color: #1c1c1c;
+    background-color: aliceblue;
+    width: 150px;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    padding: 5px;
+    text-decoration: none;
+}
+.kovi{
+    color: #1c1c1c;
+    background-color: aliceblue;
+    width: 215px;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 5px;
+  }
+.kovi:hover ,.elozo:hover{
+    background-color: #3de29d;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 2px #3de29d, 0 0 10px #3de29d;
+    background-size: 600% 600%;
+    animation: gradient 6s ease infinite;
+    transform: scale(1.00) translateY(-2px);  /* 5px */
+}
+.reszek1{
+    text-align: center;
+    justify-content: center;
+    gap: 24px;
+    align-content: center;
+    font-size: 1.5rem;
+    color: #1c1c1c;
+    background-color: aliceblue;
+    width: 120px;
+    border-radius: 15px;
+    padding: 5px;
+}
+.reszek1:hover{
+  background-color: #3de29d;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 0 2px #3de29d, 0 0 10px #3de29d;
+  background-size: 600% 600%;
+  animation: gradient 6s ease infinite;
+  transform: scale(1.00) translateY(-2px);  /* 5px */
+}
+.itt{
+  background-color: #3de29d !important;
+  border-radius: 10px;
+  box-shadow: 0 2px #3de29d, 0 0 10px #3de29d;
+}
